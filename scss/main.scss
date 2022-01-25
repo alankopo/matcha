@@ -1,0 +1,11 @@
+@use 'global' as *;
+@use 'tarjetas' as *;
+.blog{
+    background-color: $white;
+    height: 150px;
+    padding: 5% 10%;
+
+    .title {
+        @extend %base-tile
+    }
+}

@@ -1,0 +1,206 @@
+body {
+    background-color: #fffbf7;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    color: #025157;
+    font-family: 'Alegreya', serif;
+    font-weight: 900;
+    font-size: 60px;
+}
+h4 {
+    color: #46484c;
+    font-weight: 500;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+p {
+    color: #8b8b8bcc;
+}
+button {
+    color: #fff;
+    background-color: #025157;
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+}
+.header {
+    /* margin: 40px 20px 0;
+    font-size: 0;
+    height: 80px; */
+    background-color: #fffbf7;
+}
+.header li {
+    display: inline;
+    margin: 0 15px;
+}
+.header ul {
+    padding: 0;
+}
+/* 
+/*
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+} */
+/* 
+/*
+.header .logo {
+    width: 20%;
+} */
+ @@ -166,8 +166,7 @@ button {
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    padding: 5% 10%;
+    /* gap: 30px; esta propiedad también se puede usar*/
+    /* quitar despues de la clase */
+    margin-bottom: 150px;
+
+}
+
+.feature-card {
+ @@ -230,6 +229,129 @@ button
+ {
+    left: 0;
+ }
+}
+
+
+.card-container {
+    background-color: #a1d683;
+    padding: 10% 0;
+}
+
+.comments {
+    padding: 0 15px;
+}
+
+.comments h1 {
+    color: #025157;
+    font-weight: bold;
+    text-align: left;
+    font-family: "Alegreya", serif;
+    font-weight: 900;
+    font-size: 51px;
+    line-height: 61px;
+    letter-spacing: -2px;
+}
+
+.comments p {
+    font-size: 18px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.comments .btn-beefy {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 12px;
+    text-align: center;
+    color: #fff;
+    background: #025157;
+    border-radius: 8px;
+    height: 45px;
+    width: 166px;
+    transition: all .2s ease-in-out;
+}
+
+.comments .btn-beefy:hover {
+    background-color: #67b54b;
+    color: #fff;
+}
+
+.comments img {
+    margin: 40px 0;
+    padding-right: 10px;
+    width: 50%;
+}
+
+.card-logo-circle {
+    position: absolute;
+    top: 250px;
+    right: 20px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #f9da73;
+}
+
+.card-logo-circle img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 76%;
+    width: 100%;
+    display: block;
+}
+
+.success-stories .card-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #025157;
+}
+
+.success-stories .customer-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.success-stories .card-results-wrapper {
+    display: flex;
+}
+
+.success-stories .card-results-wrapper .card-results-icon {
+    flex: 1;
+}
+
+.success-stories .card-results-wrapper .card-results-text {
+    flex: 3;
+}
+
+.customer-cs-btn {
+    background: #025157;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 15px 0;
+}
+
+.card {
+    height: 655px;
+}
+
+@media (max-width: 425px) {
+    .navbar,
+    .actions {
+ @@ -282,6 +404,3 @@ button {
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+
+}
