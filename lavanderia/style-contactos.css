@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    box-sizing:  border-box ;
+}
+body{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+    position: relative;
+    padding-bottom: 3em;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    text-align: center;
+}
+
+@media  (max-with: 768p ){
+    body{
+        padding-top : 70px;
+    }
+
+}
